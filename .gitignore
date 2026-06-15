@@ -31,3 +31,6 @@ Thumbs.db
 
 # The source paper is NOT redistributed here — see the official link in the README.
 paper/
+
+# Local working files (not part of the deliverable).
+presentation/
