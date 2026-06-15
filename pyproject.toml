@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kalman-drl-replication"
+name = "crucible"
 version = "0.1.0"
 description = "Replication and causal-soundness audit of 'Kalman-Enhanced Deep Reinforcement Learning for Noise-Resilient Algorithmic Trading' (IJACSA 16(11))."
 readme = "README.md"

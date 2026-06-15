@@ -28,3 +28,6 @@ Thumbs.db
 
 # data/xauusd_h1.csv IS committed for reproducibility.
 # results/*.csv and *.md ARE committed (the comparison table).
+
+# The source paper is NOT redistributed here — see the official link in the README.
+paper/
