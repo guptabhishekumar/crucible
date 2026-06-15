@@ -1,0 +1,22 @@
+# Normalize line endings: text files stored with LF in the repo.
+* text=auto eol=lf
+
+# Windows-native scripts keep CRLF on checkout.
+*.ps1  text eol=crlf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# Explicit text types.
+*.py   text
+*.md   text
+*.txt  text
+*.toml text
+*.csv  text eol=lf
+
+# Binary assets (never normalize/diff).
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+
+# Keep the dataset out of language stats and collapse it in diffs.
+data/xauusd_h1.csv linguist-generated=true
