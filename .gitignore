@@ -1,0 +1,30 @@
+# Environments
+.venv*/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# Trained models (large, regenerate with train.py / run_all.py)
+models/
+*.zip
+
+# Plots / scratch
+*.png
+!docs/**/*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# data/xauusd_h1.csv IS committed for reproducibility.
+# results/*.csv and *.md ARE committed (the comparison table).

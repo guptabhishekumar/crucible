@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kalman-drl-replication"
+version = "0.1.0"
+description = "Replication and causal-soundness audit of 'Kalman-Enhanced Deep Reinforcement Learning for Noise-Resilient Algorithmic Trading' (IJACSA 16(11))."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Abhishek Kumar Gupta", email = "guptabhishekumar@gmail.com" }]
+keywords = ["reinforcement-learning", "kalman-filter", "algorithmic-trading", "ppo", "dqn", "replication"]
+
+[tool.setuptools]
+packages = ["kdrl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
